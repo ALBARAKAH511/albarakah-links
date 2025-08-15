@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: "Tajawal", sans-serif;
-      background: linear-gradient(180deg, #016b6b 0%, #c5eded 100%);
+      background: linear-gradient(180deg, #0bbbba 0%, #c5eded 100%);
       color: #ffffff;
       display: flex;
       justify-content: center;
@@ -26,7 +26,7 @@
       justify-content: center;
       margin-bottom: 18px;
       text-align: center;
-      flex-wrap: wrap
+      flex-wrap: wrap;
     }
     .logo {
       width: 84px;
@@ -34,34 +34,21 @@
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 10px 30px #0003;
-      background: #fff
+      background: #fff;
     }
     .logo img {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      display: block
+      display: block;
     }
     h1 { font-size: 1.6rem; margin: 0; color: #ffffff }
     .tag { color: #e0f2fe; font-size: .98rem }
-    .notice {
-      background: #0d47a1;
-      border: 1px solid #bbdefb;
-      color: #ffffff;
-      padding: 14px 16px;
-      border-radius: 14px;
-      display: inline-flex;
-      gap: 12px;
-      margin: 14px 0 22px;
-      text-align: center;
-      justify-content: center
-    }
-    .notice strong { color: #ffffff }
     .list {
       display: flex;
       flex-direction: column;
       gap: 12px;
-      align-items: center
+      align-items: center;
     }
     .btn {
       display: flex;
@@ -78,21 +65,23 @@
       max-width: 400px;
       justify-content: center;
       text-align: center;
-      font-weight: 700
+      font-weight: 700;
     }
     .btn:hover {
       transform: translateY(-2px);
       border-color: #0bbbba;
-      background: #e0f7f7
+      background: #e0f7f7;
     }
     .btn .icon {
       width: 22px;
       text-align: center;
       color: #b4b4b4;
-      transition: color .2s
+      transition: color .2s;
     }
     .btn:hover .icon { color: #0bbbba }
+    /* أيقونات الموقع الرسمي والمتجر */
     .btn:first-child .icon, .btn:nth-child(2) .icon { color: #777777; }
+    /* باقي الأيقونات */
     .btn:nth-child(3) .icon, .btn:nth-child(4) .icon, .btn:nth-child(5) .icon,
     .grid .btn .icon, .list>.btn:last-child .icon { color: #3a4949; }
     .grid {
@@ -100,7 +89,7 @@
       gap: 12px;
       width: 100%;
       max-width: 400px;
-      justify-content: center
+      justify-content: center;
     }
     .grid .btn { flex: 1 }
     @media (max-width:560px) { .grid { flex-direction: column } }
@@ -110,8 +99,7 @@
   <main class="wrap">
     <section class="profile">
       <div class="logo">
-        <img src="https:<img src="logo.png" alt="شعار جمعية البركة" />
-" alt="شعار جمعية البركة" />
+        <img src="logo.png" alt="شعار جمعية البركة" />
       </div>
       <div>
         <h1>جمعية البركة الخيرية</h1>
