@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: "Tajawal", sans-serif;
-      background: linear-gradient(180deg, #0bbbba 0%, #008080 100%);
+      background: linear-gradient(180deg, #016b6b 0%, #c5eded 100%);
       color: #ffffff;
       display: flex;
       justify-content: center;
@@ -26,7 +26,7 @@
       justify-content: center;
       margin-bottom: 18px;
       text-align: center;
-      flex-wrap: wrap;
+      flex-wrap: wrap
     }
     .logo {
       width: 84px;
@@ -34,21 +34,34 @@
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 10px 30px #0003;
-      background: #fff;
+      background: #fff
     }
     .logo img {
       width: 100%;
       height: 100%;
       object-fit: contain;
-      display: block;
+      display: block
     }
     h1 { font-size: 1.6rem; margin: 0; color: #ffffff }
     .tag { color: #e0f2fe; font-size: .98rem }
+    .notice {
+      background: #0d47a1;
+      border: 1px solid #bbdefb;
+      color: #ffffff;
+      padding: 14px 16px;
+      border-radius: 14px;
+      display: inline-flex;
+      gap: 12px;
+      margin: 14px 0 22px;
+      text-align: center;
+      justify-content: center
+    }
+    .notice strong { color: #ffffff }
     .list {
       display: flex;
       flex-direction: column;
       gap: 12px;
-      align-items: center;
+      align-items: center
     }
     .btn {
       display: flex;
@@ -65,23 +78,21 @@
       max-width: 400px;
       justify-content: center;
       text-align: center;
-      font-weight: 700;
+      font-weight: 700
     }
     .btn:hover {
       transform: translateY(-2px);
       border-color: #0bbbba;
-      background: #e0f7f7;
+      background: #e0f7f7
     }
     .btn .icon {
       width: 22px;
       text-align: center;
       color: #b4b4b4;
-      transition: color .2s;
+      transition: color .2s
     }
     .btn:hover .icon { color: #0bbbba }
-    /* أيقونات الموقع الرسمي والمتجر */
     .btn:first-child .icon, .btn:nth-child(2) .icon { color: #777777; }
-    /* باقي الأيقونات */
     .btn:nth-child(3) .icon, .btn:nth-child(4) .icon, .btn:nth-child(5) .icon,
     .grid .btn .icon, .list>.btn:last-child .icon { color: #3a4949; }
     .grid {
@@ -89,7 +100,7 @@
       gap: 12px;
       width: 100%;
       max-width: 400px;
-      justify-content: center;
+      justify-content: center
     }
     .grid .btn { flex: 1 }
     @media (max-width:560px) { .grid { flex-direction: column } }
@@ -106,17 +117,22 @@
         <div class="tag">بعطائكم ندعم الأسر المستفيدة</div>
       </div>
     </section>
+
     <div class="list">
       <a class="btn" href="https://albarakah.org.sa/" target="_blank"><span class="icon">🏠</span>الموقع الرسمي</a>
       <a class="btn" href="https://store.albarakah.org.sa/" target="_blank"><span class="icon">🛒</span>المتجر الإلكتروني</a>
       <a class="btn" href="https://api.whatsapp.com/send?phone=966504493000" target="_blank"><span class="icon">💬</span>واتساب – خدمات المستفيدين</a>
       <a class="btn" href="https://www.youtube.com/watch?v=bPNpViVT3Mc" target="_blank"><span class="icon">🎬</span>ثمرات عطائكم 2024</a>
       <a class="btn" href="https://albarakah.org.sa/laws/" target="_blank"><span class="icon">📑</span>السياسات واللوائح</a>
+
       <div class="grid">
         <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfFwSWRmNI9OnQw6J9aQM30BE9SUfPFy997I5wOnM2P9EQ?e=a2TMyb" target="_blank"><span class="icon">📄</span>شروط تقديم المساعدة</a>
         <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EQmGTtYFgGRFriUyaYEXG78B9fIPVxreq34KcwqDsUfDEw?e=8C35YN" target="_blank"><span class="icon">🪪</span>الترخيص</a>
       </div>
+
       <a class="btn" href="https://albarakah-my.sharepoint.com/:f:/g/personal/a_alsharifi_albarakah_org_sa/EqTnDcrhwi9CuKohOCQYshgBedMV_Hb1b4zN_upfyrc7Ow?e=xRLd4W" target="_blank"><span class="icon">📂</span>طريقة استخراج الوثائق</a>
+
+      <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfuR_kOVCuRCjqDZb2szEN8BKs2AmAKnQLo3-mF53Sy3jA?e=v7wSBM" target="_blank"><span class="icon">📢</span>بيان الإفصاح</a>
     </div>
   </main>
 </body>
