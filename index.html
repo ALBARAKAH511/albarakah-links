@@ -1,44 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>روابط جمعية البركة</title>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>جمعية البركة الخيرية</title>
   <style>
     body {
+      background: linear-gradient(120deg, #016b6b 60%, #e0f2fe 100%);
+      font-family: 'Tajawal', Arial, sans-serif;
       margin: 0;
-      font-family: "Tajawal", sans-serif;
-      background: linear-gradient(180deg, #016b6b 0%, #c5eded 100%);
-      color: #ffffff;
+      padding: 0;
+      min-height: 100vh;
+    }
+    main {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       min-height: 100vh;
       padding: 24px;
       text-align: center;
     }
-    .wrap { 
-      width: 100%; 
-      max-width: 720px; 
+    .wrap {
+      width: 100%;
+      max-width: 720px;
+      margin: auto;
     }
     .profile {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
+      gap: 18px;
+      margin-bottom: 32px;
     }
     .logo {
-      width: 120px;
-      height: 120px;
-      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 24px;
       overflow: hidden;
       box-shadow: 0 10px 30px #0003;
       background: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 12px;
     }
     .logo img {
       width: 100%;
@@ -47,71 +52,77 @@
       display: block;
     }
     h1 {
-      font-size: 1.8rem; 
-      margin: 0; 
+      font-size: 2.2rem;
+      margin: 0;
       color: #ffffff;
+      font-weight: bold;
+      text-shadow: 1px 2px 10px #016b6b60;
     }
     .tag {
-      color: #e0f2fe; 
-      font-size: 1rem;
+      color: #e0f2fe;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
     }
     .list {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 18px;
       align-items: center;
+      margin-top: 10px;
     }
     .btn {
       display: flex;
       align-items: center;
       gap: 14px;
-      padding: 14px 16px;
+      padding: 16px 18px;
       background: #ffffff;
       color: #016b6b;
       text-decoration: none;
-      border-radius: 14px;
-      border: 1px solid #016b6b;
+      border-radius: 16px;
+      border: 2px solid #016b6b;
       transition: .2s;
       width: 100%;
       max-width: 400px;
       justify-content: center;
       text-align: center;
       font-weight: 700;
+      font-size: 1.05rem;
     }
     .btn:hover {
-      transform: translateY(-2px);
+      transform: translateY(-3px) scale(1.02);
       background: #e0f7f7;
       color: #016b6b;
       border-color: #016b6b;
+      box-shadow: 0 4px 18px #016b6b33;
     }
     .btn .icon {
-      width: 22px;
+      width: 24px;
       text-align: center;
+      font-size: 1.2em;
       transition: color .2s;
     }
   </style>
 </head>
 <body>
-<main class="wrap">
-  <section class="profile">
-    <div class="logo">
-      <img src="logo.png" alt="شعار جمعية البركة" />
+  <main>
+    <div class="wrap">
+      <section class="profile">
+        <div class="logo">
+          <!-- ضع هنا رابط صورة الشعار الخاص بك -->
+          <img src="logo.png" alt="شعار الجمعية" />
+        </div>
+        <h1>جمعية البركة الخيرية</h1>
+        <span class="tag">روابط هامة للجمعية</span>
+      </section>
+      <div class="list">
+        <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfuR_kOVCuRCjqDZb2szEN8BKs2AmAKnQLo3-mF53Sy3jA?e=v7wSBM" target="_blank">
+          <span class="icon">📢</span>بيان الإفصاح
+        </a>
+        <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EQmGTtYFgGRFriUyaYEXG78B9fIPVxreq34KcwqDsUfDEw?e=8C35YN" target="_blank">
+          <span class="icon">🪪</span>الترخيص
+        </a>
+      </div>
     </div>
-    <h1>جمعية البركة الخيرية</h1>
-    <div class="list">
-      <a class="btn" href="https://albarakah.org.sa/" target="_blank"><span class="icon">🏠</span>الموقع الرسمي</a>
-      <a class="btn" href="https://store.albarakah.org.sa/" target="_blank"><span class="icon">🛒</span>المتجر الإلكتروني</a>
-      <a class="btn" href="https://api.whatsapp.com/send?phone=966504493000" target="_blank"><span class="icon">💬</span>واتساب – خدمات المستفيدين</a>
-      <a class="btn" href="https://www.youtube.com/watch?v=bPNpViVT3Mc" target="_blank"><span class="icon">🎬</span>ثمرات عطائكم 2024</a>
-      <a class="btn" href="https://albarakah.org.sa/laws/" target="_blank"><span class="icon">📑</span>السياسات واللوائح</a>
-
-      <!-- الترتيب المطلوب: شروط → استخراج الوثائق → الإفصاح → الترخيص -->
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfFwSWRmNI9OnQw6J9aQM30BE9SUfPFy997I5wOnM2P9EQ?e=a2TMyb" target="_blank"><span class="icon">📄</span>شروط تقديم المساعدة</a>
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:f:/g/personal/a_alsharifi_albarakah_org_sa/EqTnDcrhwi9CuKohOCQYshgBedMV_Hb1b4zN_upfyrc7Ow?e=xRLd4W" target="_blank"><span class="icon">📂</span>طريقة استخراج الوثائق</a>
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfuR_kOVCuRCjqDZb2szEN8BKs2AmAKnQLo3-mF53Sy3jA?e=v7wSBM" target="_blank"><span class="icon">📢</span>بيان الإفصاح</a>
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EQmGTtYFgGRFriUyaYEXG78B9fIPVxreq34KcwqDsUfDEw?e=8C35YN" target="_blank"><span class="icon">🪪</span>الترخيص</a>
-    </div>
-  </section>
-</main>
+  </main>
 </body>
 </html>
