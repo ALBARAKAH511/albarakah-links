@@ -21,9 +21,10 @@
     .wrap { width: 100%; max-width: 720px }
     .profile {
       display: flex;
-      flex-direction: column; /* يجعل الصورة فوق النص */
+      flex-direction: column;
+      gap: 16px;
       align-items: center;
-      gap: 12px;
+      justify-content: center;
       margin-bottom: 18px;
       text-align: center;
     }
@@ -50,73 +51,4 @@
       align-items: center
     }
     .btn {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      padding: 14px 16px;
-      background: #c5eded;
-      color: #0bbbba;
-      text-decoration: none;
-      border-radius: 14px;
-      border: 1px solid #0bbbba;
-      transition: .2s;
-      width: 100%;
-      max-width: 400px;
-      justify-content: center;
-      text-align: center;
-      font-weight: 700
-    }
-    .btn:hover {
-      transform: translateY(-2px);
-      border-color: #0bbbba;
-      background: #e0f7f7
-    }
-    .btn .icon {
-      width: 22px;
-      text-align: center;
-      color: #b4b4b4;
-      transition: color .2s
-    }
-    .btn:hover .icon { color: #0bbbba }
-    .btn:first-child .icon, .btn:nth-child(2) .icon { color: #777777; }
-    .btn:nth-child(3) .icon, .btn:nth-child(4) .icon, .btn:nth-child(5) .icon,
-    .grid .btn .icon, .list>.btn:last-child .icon { color: #3a4949; }
-    .grid {
-      display: flex;
-      gap: 12px;
-      width: 100%;
-      max-width: 400px;
-      justify-content: center
-    }
-    .grid .btn { flex: 1 }
-    @media (max-width:560px) { .grid { flex-direction: column } }
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <section class="profile">
-      <div class="logo">
-        <img src="https://albarakah-my.sharepoint.com/:i:/g/personal/a_alsharifi_albarakah_org_sa/ESxz1jdhIH9FmxO3AdaOXooBnAAYOITfbMY-j2l-9VeCRA?download=1" alt="شعار جمعية البركة" />
-      </div>
-      <div>
-        <h1>جمعية البركة الخيرية</h1>
-        <div class="tag">بعطائكم ندعم الأسر المستفيدة</div>
-      </div>
-    </section>
-
-    <div class="list">
-      <a class="btn" href="https://albarakah.org.sa/" target="_blank"><span class="icon">🏠</span>الموقع الرسمي</a>
-      <a class="btn" href="https://store.albarakah.org.sa/" target="_blank"><span class="icon">🛒</span>المتجر الإلكتروني</a>
-      <a class="btn" href="https://api.whatsapp.com/send?phone=966504493000" target="_blank"><span class="icon">💬</span>واتساب – خدمات المستفيدين</a>
-      <a class="btn" href="https://www.youtube.com/watch?v=bPNpViVT3Mc" target="_blank"><span class="icon">🎬</span>ثمرات عطائكم 2024</a>
-      <a class="btn" href="https://albarakah.org.sa/laws/" target="_blank"><span class="icon">📑</span>السياسات واللوائح</a>
-      <div class="grid">
-        <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfFwSWRmNI9OnQw6J9aQM30BE9SUfPFy997I5wOnM2P9EQ?e=a2TMyb" target="_blank"><span class="icon">📄</span>شروط تقديم المساعدة</a>
-        <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EQmGTtYFgGRFriUyaYEXG78B9fIPVxreq34KcwqDsUfDEw?e=8C35YN" target="_blank"><span class="icon">🪪</span>الترخيص</a>
-      </div>
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:f:/g/personal/a_alsharifi_albarakah_org_sa/EqTnDcrhwi9CuKohOCQYshgBedMV_Hb1b4zN_upfyrc7Ow?e=xRLd4W" target="_blank"><span class="icon">📂</span>طريقة استخراج الوثائق</a>
-      <a class="btn" href="https://albarakah-my.sharepoint.com/:b:/g/personal/a_alsharifi_albarakah_org_sa/EfuR_kOVCuRCjqDZb2szEN8BKs2AmAKnQLo3-mF53Sy3jA?e=v7wSBM" target="_blank"><span class="icon">ℹ️</span>بيان الإفصاح</a>
-    </div>
-  </main>
-</body>
-</html>
+      display:
